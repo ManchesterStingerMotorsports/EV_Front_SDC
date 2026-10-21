@@ -5,7 +5,7 @@
 	(uuid "625f588f-5f9a-4024-bc1f-9c3e581ab716")
 	(paper "A4")
 	(lib_symbols
-		(symbol "B08B-XASK-1_LF__SN_:B08B-XASK-1_LF__SN_"
+		(symbol "B06B-PASK_LF__SN_:B06B-PASK_LF__SN_"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -22,7 +22,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "B08B-XASK-1_LF__SN_"
+			(property "Value" "B06B-PASK_LF__SN_"
 				(at 16.51 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -33,7 +33,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "B08BXASK1LFSN"
+			(property "Footprint" "B06BPASKLFSN"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -45,7 +45,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B08B_XASK_1_LF_SN_egwtXA1.pdf?_gl=1*1nrbmcs*_gcl_aw*R0NMLjE3NzMxMzk1MjMuQ2owS0NRandncl9OQmhERkFSSXNBSGlVV3I0NXRzdDBxc3NqYnFaRTRqbjY0RGdNWVZrbnZnMzVqWm5DeHFhb29iUGdIYzlKWFdxV3Zrb2FBalliRUFMd193Y0I.*_gcl_dc*R0NM"
+			(property "Datasheet" "https://www.mouser.cn/ProductDetail/JST-Commercial/B06B-PASKLFSN?qs=QpmGXVUTftEdynavz55pQw%3D%3D"
 				(at 16.51 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -57,7 +57,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "Connector Header Through Hole  position 0.098\" (2.50mm)"
+			(property "Description" "CONN HEADER VERT 6POS 2MM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -68,7 +68,7 @@
 					)
 				)
 			)
-			(property "Height" "8.8"
+			(property "Height" "7.7"
 				(at 16.51 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -92,7 +92,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "B08B-XASK-1(LF)(SN)"
+			(property "Manufacturer_Part_Number" "B06B-PASK(LF)(SN)"
 				(at 16.51 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -104,7 +104,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "306-B08BXASK1LFSN"
+			(property "Mouser Part Number" "306-B06BPASKLFSN"
 				(at 16.51 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -116,7 +116,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B08B-XASK-1LFSN?qs=QpmGXVUTftH351aSmpjAnA%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B06B-PASKLFSN?qs=QpmGXVUTftEdynavz55pQw%3D%3D"
 				(at 16.51 -794.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -128,7 +128,7 @@
 					(justify left top)
 				)
 			)
-			(property "Arrow Part Number" "B08B-XASK-1(LF)(SN)"
+			(property "Arrow Part Number" "B06B-PASK(LF)(SN)"
 				(at 16.51 -894.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -140,7 +140,7 @@
 					(justify left top)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/b08b-xask-1-lf-sn/jst-manufacturing.html?utm_currency=USD&region=europe"
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/b06b-pask-lf-sn/jst-manufacturing.html?utm_currency=USD&region=europe"
 				(at 16.51 -994.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -152,10 +152,10 @@
 					(justify left top)
 				)
 			)
-			(symbol "B08B-XASK-1_LF__SN__1_1"
+			(symbol "B06B-PASK_LF__SN__1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 15.24 -20.32)
+					(end 15.24 -15.24)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -165,7 +165,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -17.78 0)
+					(at 0 -12.7 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -183,7 +183,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -15.24 0)
+					(at 0 -10.16 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -201,7 +201,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -12.7 0)
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -219,7 +219,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 0)
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -237,7 +237,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "5"
 						(effects
@@ -255,7 +255,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at 0 0 0)
 					(length 5.08)
 					(name "6"
 						(effects
@@ -265,42 +265,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4404,6 +4368,10 @@
 		(uuid "b88c8166-cccc-4a19-91b8-856460d2535e")
 	)
 	(no_connect
+		(at 30.48 97.79)
+		(uuid "bdbf221a-e03f-41db-ab97-ffcbcfe9d923")
+	)
+	(no_connect
 		(at 30.48 105.41)
 		(uuid "c6d42145-9482-4d1a-823c-0dcc260cd695")
 	)
@@ -4438,6 +4406,10 @@
 	(no_connect
 		(at 26.67 41.91)
 		(uuid "ee325081-ff0c-4a0a-99ad-eaa498053df8")
+	)
+	(no_connect
+		(at 30.48 95.25)
+		(uuid "ef9fb413-1f4b-4fa4-b3a0-e32ab07af126")
 	)
 	(no_connect
 		(at 160.02 53.34)
@@ -5193,7 +5165,7 @@
 			)
 		)
 	)
-	(global_label "MISO"
+	(global_label "5V_MISO"
 		(shape input)
 		(at 160.02 33.02 180)
 		(fields_autoplaced yes)
@@ -5481,7 +5453,7 @@
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "5V_MOSI"
 		(shape input)
 		(at 191.77 33.02 0)
 		(fields_autoplaced yes)
@@ -5502,6 +5474,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "Inertia Switch"
+		(shape input)
+		(at 90.17 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e5f9ac8-80a7-4404-bc31-6e4f01386e92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.4072 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -5601,7 +5597,7 @@
 			)
 		)
 	)
-	(global_label "SCLK"
+	(global_label "5V_SCLK"
 		(shape input)
 		(at 190.5 35.56 0)
 		(fields_autoplaced yes)
@@ -5697,7 +5693,7 @@
 			)
 		)
 	)
-	(global_label "CS_C"
+	(global_label "5V_CS_C"
 		(shape input)
 		(at 190.5 38.1 0)
 		(fields_autoplaced yes)
@@ -5718,29 +5714,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "Inertia Switch (Out)"
-		(shape input)
-		(at 90.17 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a7647241-cadd-40e5-b2e6-a54010a25242")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.8025 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -5912,7 +5885,7 @@
 			)
 		)
 	)
-	(global_label "Rear_SDC_In"
+	(global_label "Rear_SDC_In(Right)"
 		(shape input)
 		(at 90.17 82.55 180)
 		(effects
@@ -6062,7 +6035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 50.8 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6207,7 +6180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 50.8 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6432,7 +6405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "customFootprints:SOP65P640X110-14N"
+		(property "Footprint" "Custom_MSM:SOP65P640X110-14N"
 			(at 196.85 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6775,6 +6748,184 @@
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B06B-PASK_LF__SN_:B06B-PASK_LF__SN_")
+		(at 90.17 95.25 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19004e16-6c88-4946-b09b-a03dcaa70b71")
+		(property "Reference" "J1"
+			(at 113.03 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B06B-PASK_LF__SN_"
+			(at 110.49 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_MSM:S06BXASK1LFSN"
+			(at 106.68 0.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.cn/ProductDetail/JST-Commercial/B06B-PASKLFSN?qs=QpmGXVUTftEdynavz55pQw%3D%3D"
+			(at 106.68 -99.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "CONN HEADER VERT 6POS 2MM"
+			(at 90.17 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "7.7"
+			(at 106.68 -299.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 106.68 -399.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B06B-PASK(LF)(SN)"
+			(at 106.68 -499.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "306-B06BPASKLFSN"
+			(at 106.68 -599.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B06B-PASKLFSN?qs=QpmGXVUTftEdynavz55pQw%3D%3D"
+			(at 106.68 -699.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "B06B-PASK(LF)(SN)"
+			(at 106.68 -799.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/b06b-pask-lf-sn/jst-manufacturing.html?utm_currency=USD&region=europe"
+			(at 106.68 -899.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "82fa393d-4eaf-4422-b6c3-d25bc5c92b7b")
+		)
+		(pin "3"
+			(uuid "c157592c-d56a-4a80-90b1-ef4dd766837d")
+		)
+		(pin "2"
+			(uuid "b08aa9ed-662a-4220-aa3b-a67dd35e3b32")
+		)
+		(pin "4"
+			(uuid "8f0900f3-3361-4587-9b7c-0008a4feaeda")
+		)
+		(pin "5"
+			(uuid "7a2d9b77-d9fb-4475-9f10-37d26f831057")
+		)
+		(pin "6"
+			(uuid "167c4a18-31fc-44c2-af91-b3376d5315b6")
+		)
+		(instances
+			(project "EV-Front-SDC"
+				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7588,7 +7739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 142.5448 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8039,7 +8190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 80.518 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -8143,84 +8294,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 143.51 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "447740a3-3640-43d9-b4fc-fa7183cd015e")
-		(property "Reference" "#PWR046"
-			(at 143.51 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 143.51 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 143.51 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d9dbe806-978a-45a7-80a8-45678cf972a6")
-		)
-		(instances
-			(project "EV-Front-SDC"
-				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Custom_MSM1:TXE8116DGSR")
 		(at 160.02 30.48 0)
 		(unit 1)
@@ -8252,7 +8325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-24N"
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
 			(at 186.69 125.4 0)
 			(hide yes)
 			(show_name no)
@@ -8604,192 +8677,6 @@
 		)
 	)
 	(symbol
-		(lib_id "B08B-XASK-1_LF__SN_:B08B-XASK-1_LF__SN_")
-		(at 90.17 100.33 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51730c41-82d2-44e8-9369-04908c2fc56d")
-		(property "Reference" "J1"
-			(at 106.68 92.7101 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B08B-XASK-1_LF__SN_"
-			(at 106.68 90.1701 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "B08BXASK1LFSN"
-			(at 106.68 5.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B08B_XASK_1_LF_SN_egwtXA1.pdf?_gl=1*1nrbmcs*_gcl_aw*R0NMLjE3NzMxMzk1MjMuQ2owS0NRandncl9OQmhERkFSSXNBSGlVV3I0NXRzdDBxc3NqYnFaRTRqbjY0RGdNWVZrbnZnMzVqWm5DeHFhb29iUGdIYzlKWFdxV3Zrb2FBalliRUFMd193Y0I.*_gcl_dc*R0NM"
-			(at 106.68 -94.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Connector Header Through Hole  position 0.098\" (2.50mm)"
-			(at 90.17 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "8.8"
-			(at 106.68 -294.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 106.68 -394.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B08B-XASK-1(LF)(SN)"
-			(at 106.68 -494.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "306-B08BXASK1LFSN"
-			(at 106.68 -594.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B08B-XASK-1LFSN?qs=QpmGXVUTftH351aSmpjAnA%3D%3D"
-			(at 106.68 -694.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "B08B-XASK-1(LF)(SN)"
-			(at 106.68 -794.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/b08b-xask-1-lf-sn/jst-manufacturing.html?utm_currency=USD&region=europe"
-			(at 106.68 -894.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "01275bf3-6cdb-41a4-a2a0-904bba2e14b3")
-		)
-		(pin "7"
-			(uuid "f27ac864-5339-478d-b01d-0e564fcdd7a1")
-		)
-		(pin "5"
-			(uuid "f7b3303a-6578-4775-8a10-8cdde31ab147")
-		)
-		(pin "4"
-			(uuid "de36f2aa-e081-4d2c-a43e-baf5057f7408")
-		)
-		(pin "8"
-			(uuid "e530bab4-9173-4cab-aedf-6a56009ea2a1")
-		)
-		(pin "3"
-			(uuid "d8d2054e-50f0-4a1d-8e59-24426b873c0e")
-		)
-		(pin "6"
-			(uuid "d348ee82-0225-4230-b682-108ed1a8a259")
-		)
-		(pin "2"
-			(uuid "c0218b08-fb3e-4222-81cb-254f40101cf8")
-		)
-		(instances
-			(project "EV-Front-SDC"
-				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 83.82 161.29 90)
 		(unit 1)
@@ -8821,7 +8708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 83.82 163.068 90)
 			(hide yes)
 			(show_name no)
@@ -8958,7 +8845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 15.24 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9350,7 +9237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 76.2 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9509,7 +9396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 81.788 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -9803,7 +9690,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 83.058 189.23 90)
 			(hide yes)
 			(show_name no)
@@ -10098,7 +9985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 87.63 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10178,7 +10065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 86.36 187.198 90)
 			(hide yes)
 			(show_name no)
@@ -10313,7 +10200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 85.09 140.208 90)
 			(hide yes)
 			(show_name no)
@@ -10527,7 +10414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 223.2152 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10688,7 +10575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 102.87 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10846,7 +10733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 39.37 135.128 90)
 			(hide yes)
 			(show_name no)
@@ -10980,7 +10867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 34.29 178.308 90)
 			(hide yes)
 			(show_name no)
@@ -11273,7 +11160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 20.32 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11665,7 +11552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 161.798 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -12032,7 +11919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 164.7952 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12348,7 +12235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 230.8352 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12506,7 +12393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 50.8 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -12779,6 +12666,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 143.51 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f03b5d49-0acd-4485-afd7-75b2190aac9f")
+		(property "Reference" "#PWR011"
+			(at 143.51 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 143.51 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 143.51 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "435f6e14-57c2-4bdf-8f50-0f44be43c110")
+		)
+		(instances
+			(project "EV-Front-SDC"
+				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 30.48 110.49 270)
 		(unit 1)
@@ -12888,7 +12853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 31.75 157.988 90)
 			(hide yes)
 			(show_name no)
@@ -13024,7 +12989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 192.278 26.67 90)
 			(hide yes)
 			(show_name no)
