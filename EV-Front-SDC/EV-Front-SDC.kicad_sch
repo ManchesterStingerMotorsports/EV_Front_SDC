@@ -3898,16 +3898,6 @@
 		)
 		(uuid "daf4b548-3082-458d-b031-1be2950d3743")
 	)
-	(text "Power IN\n"
-		(exclude_from_sim no)
-		(at 99.06 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "31ad1199-5baf-4bef-9d13-bd8495c69efc")
-	)
 	(text "LEDS"
 		(exclude_from_sim no)
 		(at 88.9 127 0)
@@ -6144,151 +6134,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 50.8 156.21 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "01f4c84c-8a7c-4b37-bb0c-62fb0bd1b56e")
-		(property "Reference" "D2"
-			(at 50.8 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 50.8 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 50.8 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/5912/1/LR_Q976.01_EN.pdf"
-			(at 50.8 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 50.8 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 50.8 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/ams-OSRAM/LR-Q976.01?qs=1Kr7Jg1SGW8ZKvHIAQddiA%3D%3D"
-			(at 50.8 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PN" "720-LRQ976.01"
-			(at 50.8 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PL" "http://digikey.co.uk/en/products/detail/ams-osram-ag/LR-Q976-01-P2R2-1/21556490"
-			(at 50.8 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PN" "475-LRQ976.01-P2R2-1CT-ND"
-			(at 50.8 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFN" "LR Q976.01"
-			(at 50.8 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d03b49c4-d6f8-47c6-a75e-073d3496723b")
-		)
-		(pin "1"
-			(uuid "f9d6c6e8-f098-411d-9f87-5cdfbe6c9774")
-		)
-		(instances
-			(project "EV-Front-SDC"
-				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 50.8 133.35 180)
 		(unit 1)
 		(body_style 1)
@@ -6407,6 +6252,39 @@
 			)
 		)
 		(property "MFN" "LR Q976.01"
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" ""
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PRICE" "0.18"
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PRICE" "0.14"
 			(at 50.8 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6589,7 +6467,7 @@
 				(justify bottom)
 			)
 		)
-		(property "SP1N" "MAX3390EEUD+TTR-ND"
+		(property "SP1N" ""
 			(at 196.85 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6600,7 +6478,84 @@
 				)
 			)
 		)
-		(property "SP1L" "https://www.digikey.co.uk/en/products/detail/analog-devices-inc-maxim-integrated/MAX3390EEUD-T/1704639?srsltid=AU7gw4U3iiL19HzOLKgwF-4V6YkXP6tYgv3mEquGUadiU-fZkKLpRLGO"
+		(property "SP1L" ""
+			(at 196.85 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PL" "https://www.digikey.co.uk/en/products/detail/analog-devices-inc-maxim-integrated/MAX3390EEUD-T/1704639?srsltid=AU7gw4U3iiL19HzOLKgwF-4V6YkXP6tYgv3mEquGUadiU-fZkKLpRLGO"
+			(at 196.85 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PL" "https://www.mouser.co.uk/en/ProductDetail/Analog-Devices-Maxim-Integrated/MAX3390EEUD%2bT?qs=LHmEVA8xxfYBfewbaFH4tA%3D%3D"
+			(at 196.85 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PN" "MAX3390EEUD+TTR-ND"
+			(at 196.85 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PN" "700-MAX3390EEUDT"
+			(at 196.85 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" "MAX3390EEUD+T"
+			(at 196.85 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PRICE" "6.46"
+			(at 196.85 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PRICE" "4.69"
 			(at 196.85 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7512,6 +7467,184 @@
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 50.8 176.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1da4cbaa-1878-4848-babb-6fe51f07e271")
+		(property "Reference" "D3"
+			(at 50.8 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 50.8 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 50.8 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/5912/1/LR_Q976.01_EN.pdf"
+			(at 50.8 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 50.8 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/ams-OSRAM/LR-Q976.01?qs=1Kr7Jg1SGW8ZKvHIAQddiA%3D%3D"
+			(at 50.8 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PN" "720-LRQ976.01"
+			(at 50.8 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PL" "http://digikey.co.uk/en/products/detail/ams-osram-ag/LR-Q976-01-P2R2-1/21556490"
+			(at 50.8 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PN" "475-LRQ976.01-P2R2-1CT-ND"
+			(at 50.8 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "LR Q976.01"
+			(at 50.8 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" ""
+			(at 50.8 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PRICE" "0.18"
+			(at 50.8 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PRICE" "0.14"
+			(at 50.8 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "39ca8899-3ac2-49c5-84e5-6fb7f52a1af5")
+		)
+		(pin "1"
+			(uuid "c96e1581-2752-4876-9f29-3b5ecd5f575f")
+		)
+		(instances
+			(project "EV-Front-SDC"
+				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8990,7 +9123,7 @@
 				)
 			)
 		)
-		(property "MFN" "CRCW060310K0FKTAHP"
+		(property "MFN" ""
 			(at 146.05 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9001,7 +9134,7 @@
 				)
 			)
 		)
-		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/Vishay/CRCW060310K0FKTAHP?qs=bN4HulGPsrGi6OofqjFV2g%3D%3D"
+		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/Vishay-Beyschlag/MCU08050C1002FP500?qs=AQAM1KSmsrlZah%2FOh7TJ4g%3D%3D"
 			(at 146.05 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9012,7 +9145,7 @@
 				)
 			)
 		)
-		(property "S1PN" "71-CRCW060310K0FKTAH"
+		(property "S1PN" "594-MCU08050C1002FP5"
 			(at 146.05 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9034,7 +9167,40 @@
 				)
 			)
 		)
-		(property "S2PN" "541-CRCW060310K0FKTAHPTR-ND"
+		(property "S2PN" "MCU0805-10.0K-CFDKR-ND"
+			(at 146.05 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" "MCU08050C1002FP500"
+			(at 146.05 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PRICE" "0.08"
+			(at 146.05 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PRICE" "0.12"
 			(at 146.05 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9807,6 +9973,61 @@
 				)
 			)
 		)
+		(property "S2PL" "https://www.mouser.co.uk/en/ProductDetail/JST-Commercial/B14B-XASK-1LFSN?qs=QpmGXVUTftExyP2ZJNMYUA%3D%3D"
+			(at 25.4 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PN" "306-B14BXASK1LFSN"
+			(at 25.4 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" "B14B-XASK-1(LF)(SN)"
+			(at 25.4 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PRICE" "Out of stock"
+			(at 25.4 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PRICE" "0.57"
+			(at 25.4 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b9ea292d-49a3-4d8b-b659-0d2d92eed526")
 		)
@@ -9853,142 +10074,6 @@
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 151.13 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "53c2c7c2-515f-48a7-a18e-8c093d053b0a")
-		(property "Reference" "R11"
-			(at 149.86 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 149.86 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 149.352 29.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20115/crcwhp.pdf"
-			(at 151.13 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 151.13 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFN" "CRCW060310K0FKTAHP"
-			(at 151.13 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/Vishay/CRCW060310K0FKTAHP?qs=bN4HulGPsrGi6OofqjFV2g%3D%3D"
-			(at 151.13 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PN" "71-CRCW060310K0FKTAH"
-			(at 151.13 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PL" "https://www.digikey.co.uk/en/products/detail/vishay-dale/CRCW060310K0FKTAHP/26474435?s=N4IgTCBcDaIMICU4HUAMA2VBmAjKg0qgGL4AqAggBIAKIAugL5A"
-			(at 151.13 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PN" "541-CRCW060310K0FKTAHPTR-ND"
-			(at 151.13 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3acc3952-fd4f-42df-91df-620eed297110")
-		)
-		(pin "2"
-			(uuid "0cb31736-fb8b-4718-aa86-768fa43d6af7")
-		)
-		(instances
-			(project "EV-Front-SDC"
-				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10333,7 +10418,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "81-SCH16T-K01-10"
+		(property "Mouser Part Number" ""
 			(at 66.04 724.13 0)
 			(hide yes)
 			(show_name no)
@@ -10345,7 +10430,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/SCH16T-K01-10?qs=HFfMDpzxxd3YYtewmakoDQ%3D%3D"
+		(property "Mouser Price/Stock" ""
 			(at 66.04 824.13 0)
 			(hide yes)
 			(show_name no)
@@ -10379,6 +10464,83 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "S1PL" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/SCH16T-K01-10?qs=HFfMDpzxxd3YYtewmakoDQ%3D%3D"
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/en/products/detail/murata-electronics/SCH16T-K01-10/22966163"
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PN" "81-SCH16T-K01-10"
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PN" "SCH16T-K01-10"
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" ""
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PRICE" "40.43"
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PRICE" "53.85"
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -13289,6 +13451,176 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 151.13 29.21 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dad660b7-aec7-4567-95f3-23a68570bbae")
+		(property "Reference" "R11"
+			(at 148.59 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 148.59 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 152.908 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20115/crcwhp.pdf"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "CRCW060310K0FKTAHP"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/Vishay-Beyschlag/MCU08050C1002FP500?qs=AQAM1KSmsrlZah%2FOh7TJ4g%3D%3D"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PN" "594-MCU08050C1002FP5"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/en/products/detail/vishay-dale/CRCW060310K0FKTAHP/26474435?s=N4IgTCBcDaIMICU4HUAMA2VBmAjKg0qgGL4AqAggBIAKIAugL5A"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PN" "MCU0805-10.0K-CFDKR-ND"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" ""
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PRICE" "0.08"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PRICE" "0.12"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1264c653-0b56-44fc-a165-81fc1f70066d")
+		)
+		(pin "2"
+			(uuid "2c895d20-ef84-4d07-a910-3672e90ed540")
+		)
+		(instances
+			(project "EV-Front-SDC"
+				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 87.63 49.53 0)
 		(unit 1)
@@ -13521,151 +13853,6 @@
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 50.8 176.53 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e6887d16-9e73-454e-b8b1-e99e25b07e22")
-		(property "Reference" "D3"
-			(at 50.8 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 50.8 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/5912/1/LR_Q976.01_EN.pdf"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/ams-OSRAM/LR-Q976.01?qs=1Kr7Jg1SGW8ZKvHIAQddiA%3D%3D"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PN" "720-LRQ976.01"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PL" "http://digikey.co.uk/en/products/detail/ams-osram-ag/LR-Q976-01-P2R2-1/21556490"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PN" "475-LRQ976.01-P2R2-1CT-ND"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFN" "LR Q976.01"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d83e300a-6b7a-4770-8cc5-1e28b0ca497f")
-		)
-		(pin "1"
-			(uuid "1ec655da-ae3c-43dc-819f-eef737a24092")
-		)
-		(instances
-			(project "EV-Front-SDC"
-				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -14062,6 +14249,184 @@
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 50.8 156.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f38fa225-8ea0-4d86-b963-00eba3fea7f3")
+		(property "Reference" "D2"
+			(at 50.8 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 50.8 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/5912/1/LR_Q976.01_EN.pdf"
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/ams-OSRAM/LR-Q976.01?qs=1Kr7Jg1SGW8ZKvHIAQddiA%3D%3D"
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PN" "720-LRQ976.01"
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PL" "http://digikey.co.uk/en/products/detail/ams-osram-ag/LR-Q976-01-P2R2-1/21556490"
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PN" "475-LRQ976.01-P2R2-1CT-ND"
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "LR Q976.01"
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" ""
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PRICE" "0.18"
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PRICE" "0.14"
+			(at 50.8 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e5528c3e-4c3f-4202-9036-782ac53323da")
+		)
+		(pin "1"
+			(uuid "a11a3368-a67c-4fcf-b5db-c419d06bc8ab")
+		)
+		(instances
+			(project "EV-Front-SDC"
+				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
+					(reference "D2")
 					(unit 1)
 				)
 			)
