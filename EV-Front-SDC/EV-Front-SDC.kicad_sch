@@ -9414,7 +9414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CustomFootprints10:GPS"
+		(property "Footprint" "Custom_MSM:GPS"
 			(at 148.59 86.36 0)
 			(hide yes)
 			(show_name no)
