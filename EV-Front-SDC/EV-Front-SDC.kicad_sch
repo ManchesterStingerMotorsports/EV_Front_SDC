@@ -4556,6 +4556,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 185.42) (xy 90.17 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664d4ac8-678d-4767-85ff-8b37192be04c")
+	)
+	(wire
+		(pts
 			(xy 142.24 45.72) (xy 152.4 45.72)
 		)
 		(stroke
@@ -4723,6 +4733,16 @@
 			(type default)
 		)
 		(uuid "84948206-e034-4f8c-9507-a7a0dbb0e9f4")
+	)
+	(wire
+		(pts
+			(xy 90.17 138.43) (xy 88.9 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbab592-7d4e-4500-ad5e-012de8477f4b")
 	)
 	(wire
 		(pts
@@ -5064,7 +5084,7 @@
 	)
 	(global_label "Inertia Switch"
 		(shape input)
-		(at 90.17 185.42 0)
+		(at 92.71 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5074,7 +5094,7 @@
 		)
 		(uuid "172d02e2-5c3c-45e4-913c-2e01d041be8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.9328 185.42 0)
+			(at 100.4728 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5807,7 +5827,7 @@
 	)
 	(global_label "BOTS"
 		(shape input)
-		(at 88.9 138.43 0)
+		(at 90.17 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5817,7 +5837,7 @@
 		)
 		(uuid "d4c2b656-b6f4-4592-996c-5d115ae34c60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.6628 138.43 0)
+			(at 97.9328 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6421,7 +6441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_MSM:SOP65P640X110-14N"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 196.85 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6622,7 +6642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d5b660b-6f34-4f08-bc2f-a7fce3a631ac")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 34.29 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6761,7 +6781,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6779,7 +6799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e6bf97f-a243-46d6-9ec6-7b7502de0ae8")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 82.55 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6920,7 +6940,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7173,7 +7193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18a37ad4-e9a0-4fb0-a07e-3383415c5803")
-		(property "Reference" "R6"
+		(property "Reference" "R9"
 			(at 83.82 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7314,7 +7334,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7333,7 +7353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d95ede1-39fd-4372-8f9c-d5604da91b71")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 66.04 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7466,7 +7486,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -7662,7 +7682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2064f050-8da3-44b7-8887-ea018e803e82")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 97.79 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7815,7 +7835,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8382,7 +8402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a454251-8ab3-414b-8c87-d23b04e5e130")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 177.8 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8587,7 +8607,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8684,7 +8704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b2fe8db-cf8f-4a53-b3cc-14400b0f9ef9")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 67.31 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8817,7 +8837,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -8835,7 +8855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d95d340-118d-4989-b15c-68972a9f37df")
-		(property "Reference" "R9"
+		(property "Reference" "R3"
 			(at 86.36 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8974,7 +8994,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "R9")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9392,7 +9412,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a025b9e-e34d-443e-bf12-0e47e96d814f")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 147.32 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9554,7 +9574,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9649,7 +9669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e1d4beb-abd6-40b5-bdba-386e94f5da63")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 31.75 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9788,7 +9808,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9885,7 +9905,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5062c950-fc9f-43a9-8943-63111ea4be7e")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 22.86 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10073,7 +10093,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10327,7 +10347,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "634047a6-4df0-4360-b95d-542d49661230")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 46.99 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10618,7 +10638,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -11029,7 +11049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d2989f5-ece4-4e4a-8c57-c6565bd34d08")
-		(property "Reference" "R8"
+		(property "Reference" "R1"
 			(at 85.09 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11168,7 +11188,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "R8")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11896,7 +11916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8633f24-dcab-43f7-8cd2-3b4dd5b1b98c")
-		(property "Reference" "R7"
+		(property "Reference" "R2"
 			(at 83.82 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12035,7 +12055,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "R7")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -12130,7 +12150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2862cb9-1190-4677-9376-c7babffc3167")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 15.24 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12271,7 +12291,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -12367,7 +12387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c71b056a-51ee-4063-9996-86941e854386")
-		(property "Reference" "R4"
+		(property "Reference" "R8"
 			(at 81.28 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12508,7 +12528,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "R4")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12995,7 +13015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d23ef2c9-f083-4cfb-baf2-a223f5be49c2")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 39.37 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13134,7 +13154,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -13632,7 +13652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1559f8a-6046-4310-b766-745b8955e110")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 90.17 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13773,7 +13793,7 @@
 		(instances
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
