@@ -3828,7 +3828,7 @@
 	)
 	(rectangle
 		(start 12.7 121.92)
-		(end 132.08 196.85)
+		(end 176.53 196.85)
 		(stroke
 			(width 0)
 			(type default)
@@ -4001,16 +4001,16 @@
 		(uuid "3aa5f5a2-7932-4931-befe-b27cf150541b")
 	)
 	(junction
+		(at 71.12 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a645f65-b12b-4b36-b8ff-9afd658b2890")
+	)
+	(junction
 		(at 142.24 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80cbd7d5-4840-44b7-a864-40e486894547")
-	)
-	(junction
-		(at 81.28 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "832eeaae-bd28-4811-b94d-12c82f11ea54")
 	)
 	(junction
 		(at 15.24 46.99)
@@ -4206,16 +4206,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 185.42) (xy 82.55 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cc784eb-6f23-4014-b1cf-0c4fc2ce5b88")
-	)
-	(wire
-		(pts
 			(xy 69.85 156.21) (xy 54.61 156.21)
 		)
 		(stroke
@@ -4356,6 +4346,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 182.88) (xy 72.39 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31940416-4b74-43e9-87f3-33553c50a788")
+	)
+	(wire
+		(pts
 			(xy 156.21 34.29) (xy 156.21 35.56)
 		)
 		(stroke
@@ -4446,16 +4446,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 191.77) (xy 72.39 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46763436-4e46-4e9e-a324-1afe44682239")
-	)
-	(wire
-		(pts
 			(xy 166.37 52.07) (xy 166.37 50.8)
 		)
 		(stroke
@@ -4516,16 +4506,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 176.53) (xy 30.48 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61b8b10d-3fe4-4753-9ace-a1cf740b902e")
-	)
-	(wire
-		(pts
 			(xy 152.4 45.72) (xy 152.4 40.64)
 		)
 		(stroke
@@ -4556,13 +4536,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 185.42) (xy 90.17 185.42)
+			(xy 90.17 92.71) (xy 90.17 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "664d4ac8-678d-4767-85ff-8b37192be04c")
+		(uuid "6629df61-8db0-4232-bd74-8bdb9bbc66db")
 	)
 	(wire
 		(pts
@@ -4686,26 +4666,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 185.42) (xy 81.28 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fc5cd22-6c3f-46b3-8508-f5de265728c1")
-	)
-	(wire
-		(pts
-			(xy 90.17 85.09) (xy 90.17 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8184e93c-f50b-441e-be6f-0ed2425cbf56")
-	)
-	(wire
-		(pts
 			(xy 161.29 43.18) (xy 166.37 43.18)
 		)
 		(stroke
@@ -4736,6 +4696,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 187.96) (xy 62.23 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a2b6e2-9a73-40fc-9364-f6cb26ad55d8")
+	)
+	(wire
+		(pts
 			(xy 90.17 138.43) (xy 88.9 138.43)
 		)
 		(stroke
@@ -4743,6 +4713,16 @@
 			(type default)
 		)
 		(uuid "8dbab592-7d4e-4500-ad5e-012de8477f4b")
+	)
+	(wire
+		(pts
+			(xy 90.17 82.55) (xy 90.17 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92666a04-85f7-43b7-8c67-719d4080f94f")
 	)
 	(wire
 		(pts
@@ -4773,6 +4753,16 @@
 			(type default)
 		)
 		(uuid "a4e9d067-dc0d-45ca-bed1-75fe0e49aaf0")
+	)
+	(wire
+		(pts
+			(xy 20.32 177.8) (xy 29.21 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6eff576-2f8b-4eb9-b929-aaf8ebbdfafe")
 	)
 	(wire
 		(pts
@@ -4856,36 +4846,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 176.53) (xy 54.61 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbd887a0-c6b3-405f-ab29-ea2ce0e6b4ad")
-	)
-	(wire
-		(pts
-			(xy 38.1 176.53) (xy 46.99 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be094bad-4b18-43fb-8211-097421d61425")
-	)
-	(wire
-		(pts
-			(xy 90.17 90.17) (xy 90.17 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be19d5ca-eba8-4ad1-9920-047443fef651")
-	)
-	(wire
-		(pts
 			(xy 72.39 54.61) (xy 72.39 52.07)
 		)
 		(stroke
@@ -4893,6 +4853,26 @@
 			(type default)
 		)
 		(uuid "c141d214-046f-4e16-9cac-214ef55c6589")
+	)
+	(wire
+		(pts
+			(xy 36.83 177.8) (xy 45.72 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e13dab-9092-4f08-8860-e927e224ae57")
+	)
+	(wire
+		(pts
+			(xy 69.85 182.88) (xy 71.12 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ff8556-1a52-4bff-8e66-4e3b761e8a81")
 	)
 	(wire
 		(pts
@@ -4966,23 +4946,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 191.77) (xy 72.39 190.5)
+			(xy 90.17 87.63) (xy 90.17 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1846861-7766-4de9-ab1e-a53cd3f4af86")
+		(uuid "e07303c0-39aa-4a15-8f89-e19ce5ef679a")
 	)
 	(wire
 		(pts
-			(xy 72.39 180.34) (xy 72.39 176.53)
+			(xy 53.34 177.8) (xy 62.23 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8fedfe5-be76-48ed-b27f-c9f9a878f10a")
+		(uuid "ea4425e1-567b-4502-9821-5f5e8f7a57da")
 	)
 	(wire
 		(pts
@@ -5082,30 +5062,6 @@
 			)
 		)
 	)
-	(global_label "Inertia Switch"
-		(shape input)
-		(at 92.71 185.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "172d02e2-5c3c-45e4-913c-2e01d041be8c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.4728 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "5V_MOSI"
 		(shape input)
 		(at 30.48 90.17 0)
@@ -5178,30 +5134,6 @@
 			)
 		)
 	)
-	(global_label "IS_S"
-		(shape input)
-		(at 156.21 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2a3db3a9-0ff4-491c-b627-01ca2a2cec74")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.5076 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "BOTS_S"
 		(shape input)
 		(at 62.23 133.35 90)
@@ -5250,19 +5182,18 @@
 			)
 		)
 	)
-	(global_label "Cockpit"
+	(global_label "Rear_SDC_In(Right)"
 		(shape input)
-		(at 90.17 91.44 180)
-		(fields_autoplaced yes)
+		(at 80.01 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "3e72df83-8d2a-49ee-9330-0f5531461c51")
+		(uuid "32f3585a-03f9-4459-97c7-b2024b7a0915")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.1696 91.44 0)
+			(at 88.3775 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5270,7 +5201,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5295,30 +5226,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "BOTS"
-		(shape input)
-		(at 90.17 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "40f6b53a-a8b9-436e-9e85-8c03b56ec41e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.4072 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -5394,6 +5301,30 @@
 			)
 		)
 	)
+	(global_label "R_S"
+		(shape input)
+		(at 156.21 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e60bfae-c22f-4e72-98ea-e38db44803f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.7777 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Cockpit"
 		(shape input)
 		(at 87.63 161.29 0)
@@ -5415,6 +5346,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "Cockpit"
+		(shape input)
+		(at 90.17 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "547fa8a9-6db2-4a9b-8934-59c51f925a41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.1696 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -5682,6 +5637,30 @@
 			)
 		)
 	)
+	(global_label "BOTS"
+		(shape input)
+		(at 90.17 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b29c3e91-34aa-4a7e-aa90-c440da2b351e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.4072 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "5V_MISO"
 		(shape input)
 		(at 166.37 38.1 180)
@@ -5873,6 +5852,30 @@
 			)
 		)
 	)
+	(global_label "R_S"
+		(shape input)
+		(at 58.42 177.8 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e01cbc8a-1f27-4e2b-ab03-c3ca4f0b1b08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.42 169.9163 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CK_S"
 		(shape input)
 		(at 156.21 50.8 180)
@@ -5894,30 +5897,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "IS_S"
-		(shape input)
-		(at 72.39 176.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e8747d39-af1b-4240-af0b-15a97cff67a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.1528 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -5990,6 +5969,84 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00405089-8662-4045-973f-4a4c405e863c")
+		(property "Reference" "#PWR042"
+			(at 71.12 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b5dd0e7-2cd7-4d93-afba-07b7c37a7f32")
+		)
+		(instances
+			(project "EV-Front-SDC"
+				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
+					(reference "#PWR042")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6633,162 +6690,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 176.53 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0d5b660b-6f34-4f08-bc2f-a7fce3a631ac")
-		(property "Reference" "R6"
-			(at 34.29 170.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "300R"
-			(at 34.29 172.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 34.29 178.308 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 34.29 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 34.29 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFN" "CRCW0805300RFKEA"
-			(at 34.29 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/Vishay/CRCW0805300RFKEA?qs=sGAEpiMZZMtlubZbdhIBIOyDfM1FG6gWt%252BOoIIXHtqQ%3D"
-			(at 34.29 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PN" "71-CRCW0805300RFKEA"
-			(at 34.29 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PL" "https://www.digikey.co.uk/en/products/detail/vishay-dale/CRCW0805300RFKEA/1175575"
-			(at 34.29 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PN" "541-300CTR-ND"
-			(at 34.29 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PRICE" "0.075"
-			(at 34.29 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PRICE" "0.07"
-			(at 34.29 176.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f9ad76d4-5e20-42c1-96f6-c03d42333d1a")
-		)
-		(pin "2"
-			(uuid "830a0535-0685-4746-a127-74223053adc8")
-		)
-		(instances
-			(project "EV-Front-SDC"
-				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 80.01 144.78 180)
 		(unit 1)
 		(body_style 1)
@@ -7024,323 +6925,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 24.13 176.53 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "147d1f1c-4707-46bd-a0c3-a98191d072ca")
-		(property "Reference" "#PWR07"
-			(at 27.94 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 20.32 176.5299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 24.13 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da1ef9fe-2be5-456d-bba2-efb5fb14c397")
-		)
-		(instances
-			(project "EV-Front-SDC"
-				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 191.77 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "151a0cf9-883b-41b5-9ab5-4ba6b661736c")
-		(property "Reference" "#PWR016"
-			(at 59.69 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 191.7699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7046bb87-6f69-48e6-b8dc-f5ff18de396a")
-		)
-		(instances
-			(project "EV-Front-SDC"
-				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 81.28 189.23 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18a37ad4-e9a0-4fb0-a07e-3383415c5803")
-		(property "Reference" "R9"
-			(at 83.82 187.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "25k"
-			(at 83.82 190.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 83.058 189.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/60026/ptn.pdf"
-			(at 81.28 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 81.28 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFN" "PNM0805E2502BST1"
-			(at 81.28 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/Vishay-Thin-Film/PNM0805E2502BST1?qs=GmxlWZd7RPJh923cc%252BOgKw%3D%3D"
-			(at 81.28 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PN" "71-PNM0805E2502BST1"
-			(at 81.28 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PL" "https://www.digikey.co.uk/en/products/detail/vishay-dale-thin-film/PNM0805E2502BST1/26251657?s=N4IgTCBcDaIAoDkCyAGAHCgrAUTJlYAQgMoAqAjCALoC%2BQA"
-			(at 81.28 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PN" "764-PNM0805E2502BST1TR-ND"
-			(at 81.28 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PRICE" "0.834"
-			(at 81.28 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PRICE" "0.78"
-			(at 81.28 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d203008-c5c8-4f38-8327-3dce783723ac")
-		)
-		(pin "2"
-			(uuid "05bd25b8-66df-4138-98aa-f79481c41a51")
-		)
-		(instances
-			(project "EV-Front-SDC"
-				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Custom_MSM1:MOSFET_N-CH")
 		(at 72.39 161.29 0)
 		(mirror y)
@@ -7487,355 +7071,6 @@
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 50.8 176.53 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1da4cbaa-1878-4848-babb-6fe51f07e271")
-		(property "Reference" "D3"
-			(at 50.8 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 50.8 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/3/5912/1/LR_Q976.01_EN.pdf"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/ams-OSRAM/LR-Q976.01?qs=1Kr7Jg1SGW8ZKvHIAQddiA%3D%3D"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PN" "720-LRQ976.01"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PL" "http://digikey.co.uk/en/products/detail/ams-osram-ag/LR-Q976-01-P2R2-1/21556490"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PN" "475-LRQ976.01-P2R2-1CT-ND"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFN" "LR Q976.01"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFP" ""
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PRICE" "0.18"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PRICE" "0.14"
-			(at 50.8 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "39ca8899-3ac2-49c5-84e5-6fb7f52a1af5")
-		)
-		(pin "1"
-			(uuid "c96e1581-2752-4876-9f29-3b5ecd5f575f")
-		)
-		(instances
-			(project "EV-Front-SDC"
-				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 95.25 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2064f050-8da3-44b7-8887-ea018e803e82")
-		(property "Reference" "J1"
-			(at 97.79 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06"
-			(at 97.79 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XA_S06B-XASK-1_1x06_P2.50mm_Horizontal"
-			(at 95.25 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXA-WB.pdf?66ec759629c9e"
-			(at 95.25 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 95.25 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/JST-Commercial/S06B-XASK-1LFSN?qs=QpmGXVUTftETF7tVTkyNPw%3D%3D"
-			(at 95.25 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PL" "https://www.digikey.co.uk/en/products/detail/jst-sales-america-inc/B06B-XASK-1/1634737?s=N4IgTCBcDaIEIAYBscC0ANAggZQNKoEYAKAGQDEBKI7AOQpAF0BfIA"
-			(at 95.25 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PN" "306-B06BXASK1LFSN"
-			(at 95.25 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PN" "455-B06B-XASK-1-ND"
-			(at 95.25 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFP" "B06B-XASK-1(LF)(SN)"
-			(at 95.25 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PRICE" "0.42"
-			(at 95.25 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PRICE" "0.26"
-			(at 95.25 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "0b55a390-52b0-4c40-bff0-3fa09bfd4172")
-		)
-		(pin "3"
-			(uuid "4a9cdca2-6905-4c7d-9968-299e939d7ba2")
-		)
-		(pin "1"
-			(uuid "6316a290-9d3a-44a1-b320-9c241c660764")
-		)
-		(pin "6"
-			(uuid "dd3803a9-a199-4ff6-8d1c-94c0c5fe9d48")
-		)
-		(pin "4"
-			(uuid "e88c24c1-de2f-495f-93a0-c10a799d454d")
-		)
-		(pin "2"
-			(uuid "a7625118-e42f-4c27-accd-3bb30004534d")
-		)
-		(instances
-			(project "EV-Front-SDC"
-				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8073,83 +7308,6 @@
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 81.28 193.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "22ce4958-510c-43ad-a7fb-7a39dc817585")
-		(property "Reference" "#PWR023"
-			(at 81.28 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91978664-29ef-477a-af4b-c6e952e1bd30")
-		)
-		(instances
-			(project "EV-Front-SDC"
-				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8838,163 +7996,6 @@
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 86.36 185.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d95d340-118d-4989-b15c-68972a9f37df")
-		(property "Reference" "R3"
-			(at 86.36 179.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "75K"
-			(at 86.36 181.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 86.36 187.198 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 86.36 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 86.36 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/Vishay/TNPW060375K0BHEA?qs=sGAEpiMZZMtlubZbdhIBIAegmzRIFGk%2FHK5Qps%252BBXGc%3D"
-			(at 86.36 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PN" "71-CRCW080575K0JNEA"
-			(at 86.36 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PL" "https://www.digikey.co.uk/en/products/detail/vishay-dale/CRCW080575K0JNEA/1175243"
-			(at 86.36 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PN" "541-75KACT-ND"
-			(at 86.36 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFN" "CRCW080575K0JNEA"
-			(at 86.36 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PRICE" "0.075"
-			(at 86.36 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PRICE" "0.07"
-			(at 86.36 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59ba9519-4a3c-47d0-8941-632e6d35acee")
-		)
-		(pin "2"
-			(uuid "abe9e092-a2c2-45a9-abb0-0ea43c49d5e2")
-		)
-		(instances
-			(project "EV-Front-SDC"
-				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9894,6 +8895,179 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 95.25 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4772493f-49a3-4d67-b85c-5648e1a4173f")
+		(property "Reference" "J1"
+			(at 97.79 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 97.79 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XA_S06B-XASK-1_1x06_P2.50mm_Horizontal"
+			(at 95.25 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 95.25 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca8c85da-2448-480b-bbfa-b9400c6556b1")
+		)
+		(pin "5"
+			(uuid "1b1096c0-ba01-4f4b-af1c-4e4006fac0cd")
+		)
+		(pin "4"
+			(uuid "e1cdba42-399f-4b45-bc6d-caf11624c0d1")
+		)
+		(pin "2"
+			(uuid "4157d673-cb95-4dc1-8df0-010469d4455b")
+		)
+		(pin "3"
+			(uuid "8d476c7c-8344-474b-a4bf-b97c99497ce6")
+		)
+		(pin "6"
+			(uuid "5aadd828-d48c-408a-9533-e09bf8c44cf3")
+		)
+		(instances
+			(project "EV-Front-SDC"
+				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cebca5b-e8f4-48e8-bf2e-84cdbb32ed8e")
+		(property "Reference" "#PWR041"
+			(at 34.29 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a33e654-f45a-4eed-9702-eb7d1309bfae")
+		)
+		(instances
+			(project "EV-Front-SDC"
+				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x14")
 		(at 25.4 95.25 0)
 		(mirror y)
@@ -10111,7 +9285,7 @@
 		(dnp no)
 		(uuid "553e06e7-6a0c-43a9-89db-e9849314c3ef")
 		(property "Reference" "C7"
-			(at 160.02 90.17 0)
+			(at 158.75 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11039,6 +10213,165 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 71.12 186.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a06a2ba-039f-48d6-a38e-d0d7e328b09e")
+		(property "Reference" "R13"
+			(at 73.66 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "25k"
+			(at 73.66 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 72.898 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/60026/ptn.pdf"
+			(at 71.12 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "PNM0805E2502BST1"
+			(at 71.12 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/Vishay-Thin-Film/PNM0805E2502BST1?qs=GmxlWZd7RPJh923cc%252BOgKw%3D%3D"
+			(at 71.12 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PN" "71-PNM0805E2502BST1"
+			(at 71.12 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/en/products/detail/vishay-dale-thin-film/PNM0805E2502BST1/26251657?s=N4IgTCBcDaIAoDkCyAGAHCgrAUTJlYAQgMoAqAjCALoC%2BQA"
+			(at 71.12 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PN" "764-PNM0805E2502BST1TR-ND"
+			(at 71.12 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PRICE" "0.834"
+			(at 71.12 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PRICE" "0.78"
+			(at 71.12 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a65d9dac-f726-4fb5-973d-54f41fc3591e")
+		)
+		(pin "2"
+			(uuid "105c0f10-08bc-4e10-a7c2-ab106d6028e7")
+		)
+		(instances
+			(project "EV-Front-SDC"
+				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 85.09 138.43 90)
 		(unit 1)
 		(body_style 1)
@@ -11353,6 +10686,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 20.32 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f9f3209-999a-4477-8689-870cc282cd27")
+		(property "Reference" "#PWR040"
+			(at 20.32 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 20.32 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 20.32 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02dafcd8-ee41-43d3-8e71-59d4726f4840")
+		)
+		(instances
+			(project "EV-Front-SDC"
+				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 214.63 104.14 0)
 		(unit 1)
@@ -11425,6 +10836,173 @@
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 49.53 177.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "934db9d4-c432-4ad6-8ef5-298bbf19c914")
+		(property "Reference" "D4"
+			(at 49.53 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 49.53 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 49.53 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080RS75000.pdf"
+			(at 49.53 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 49.53 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 49.53 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/Wurth-Elektronik/150080RS75000?qs=LlUlMxKIyB2jdCo7bnfgew%3D%3D"
+			(at 49.53 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PN" "710-150080RS75000"
+			(at 49.53 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/en/products/detail/w%C3%BCrth-elektronik/150080RS75000/4489918?s=N4IgTCBcDaIIwFYAMSAcSBKBlA7MlIAugL5A"
+			(at 49.53 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PN" "732-4984-1-ND"
+			(at 49.53 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "150080RS75000"
+			(at 49.53 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PRICE" "0.142"
+			(at 49.53 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PRICE" "0.140"
+			(at 49.53 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3d5b3929-037d-4ef1-b36a-7fd260cc7ec0")
+		)
+		(pin "1"
+			(uuid "0301414b-25a7-4684-81cb-52dec1bad2ba")
+		)
+		(instances
+			(project "EV-Front-SDC"
+				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -11826,6 +11404,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 33.02 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af7b0da3-1df4-43ce-a10c-e2c51e60daca")
+		(property "Reference" "R12"
+			(at 33.02 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300R"
+			(at 33.02 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 33.02 179.578 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 33.02 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 33.02 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "CRCW0805300RFKEA"
+			(at 33.02 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/Vishay/CRCW0805300RFKEA?qs=sGAEpiMZZMtlubZbdhIBIOyDfM1FG6gWt%252BOoIIXHtqQ%3D"
+			(at 33.02 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PN" "71-CRCW0805300RFKEA"
+			(at 33.02 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/en/products/detail/vishay-dale/CRCW0805300RFKEA/1175575"
+			(at 33.02 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PN" "541-300CTR-ND"
+			(at 33.02 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PRICE" "0.075"
+			(at 33.02 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PRICE" "0.07"
+			(at 33.02 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d9fa994-488e-4448-bd2e-be980cf0f579")
+		)
+		(pin "2"
+			(uuid "fe2492e5-b9e6-4a61-a4a6-adab9e184a36")
+		)
+		(instances
+			(project "EV-Front-SDC"
+				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 87.63 52.07 0)
 		(unit 1)
@@ -12134,6 +11868,179 @@
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_MSM1:MOSFET_N-CH")
+		(at 64.77 182.88 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc87256e-ac83-4ae7-ac62-0cbc2e691bc7")
+		(property "Reference" "Q4"
+			(at 65.4051 178.435 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS205N"
+			(at 67.31 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
+			(at 59.69 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
+			(at 64.77 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
+			(at 64.77 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "Infineon"
+			(at 64.77 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" "BSS205NH6327XTSA1"
+			(at 64.77 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PN" "726-BSS205NH6327"
+			(at 64.77 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PL" "https://mou.sr/3WyFwkN"
+			(at 64.77 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
+			(at 64.77 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
+			(at 64.77 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1_price" "0.32"
+			(at 64.77 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2_price" "0.32"
+			(at 64.77 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c3b499e0-d1a1-438a-8494-cb20eb984058")
+		)
+		(pin "1"
+			(uuid "a7ead13a-7232-42e6-a489-b2cb59af476a")
+		)
+		(pin "3"
+			(uuid "59ad630c-e985-4666-a2b8-efecc50f5638")
+		)
+		(instances
+			(project "EV-Front-SDC"
+				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -13006,6 +12913,163 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 76.2 182.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d14cb42a-fa06-44fa-ac41-c940859b6728")
+		(property "Reference" "R14"
+			(at 76.2 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "75K"
+			(at 76.2 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 76.2 184.658 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf"
+			(at 76.2 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PL" "https://www.mouser.co.uk/en/ProductDetail/Vishay/TNPW060375K0BHEA?qs=sGAEpiMZZMtlubZbdhIBIAegmzRIFGk%2FHK5Qps%252BBXGc%3D"
+			(at 76.2 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PN" "71-CRCW080575K0JNEA"
+			(at 76.2 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PL" "https://www.digikey.co.uk/en/products/detail/vishay-dale/CRCW080575K0JNEA/1175243"
+			(at 76.2 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PN" "541-75KACT-ND"
+			(at 76.2 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "CRCW080575K0JNEA"
+			(at 76.2 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S1PRICE" "0.075"
+			(at 76.2 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "S2PRICE" "0.07"
+			(at 76.2 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8eb10b23-3bdc-494b-bd5a-e75fab1a87e8")
+		)
+		(pin "2"
+			(uuid "aa9a151d-a6df-4828-a693-3f00db37afdf")
+		)
+		(instances
+			(project "EV-Front-SDC"
+				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 39.37 133.35 90)
 		(unit 1)
 		(body_style 1)
@@ -13234,158 +13298,6 @@
 			(project "EV-Front-SDC"
 				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_MSM1:MOSFET_N-CH")
-		(at 74.93 185.42 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6b06c85-da51-4434-bb08-f8c6d4c34c3f")
-		(property "Reference" "Q3"
-			(at 68.58 184.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS205N"
-			(at 68.58 186.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Custom_MSM:MOSFET_Single_SOT-23"
-			(at 69.85 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/BSS205N_Rev2.4.pdf?folderId=db3a3043156fd573011622e10b5c1f67&fileId=db3a304330f686060131091244950062"
-			(at 74.93 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MSM standard 3-pin N-Channel MOSFET"
-			(at 74.93 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFN" "Infineon"
-			(at 74.93 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFP" "BSS205NH6327XTSA1"
-			(at 74.93 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PN" "726-BSS205NH6327"
-			(at 74.93 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S1PL" "https://mou.sr/3WyFwkN"
-			(at 74.93 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PN" "BSS205NH6327XTSA1CT-ND"
-			(at 74.93 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "S2PL" "https://www.digikey.co.uk/short/wdw0q373"
-			(at 74.93 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "9ca0afaa-9b84-4de7-b951-a982fd55f161")
-		)
-		(pin "1"
-			(uuid "b2b89b10-69c3-4dca-b435-ea17139b0517")
-		)
-		(pin "2"
-			(uuid "e252af47-bc0a-476f-8d98-ef91c0d00882")
-		)
-		(instances
-			(project "EV-Front-SDC"
-				(path "/625f588f-5f9a-4024-bc1f-9c3e581ab716"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
